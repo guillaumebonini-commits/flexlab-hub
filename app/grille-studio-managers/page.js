@@ -3,7 +3,7 @@ export default function GrilleStudioManagers() {
     <div className="page">
       <div className="chapter-label">Chapitre 05 &middot; Equipe &amp; Paie</div>
       <h1 className="chapter-title">
-        Grille <em>studio managers</em>
+        STUDI<span className="sl">O</span> <em>managers</em>
       </h1>
       <p className="chapter-subtitle">
         Base CDI + variable hybride trim &amp; annuel. Profil retail premium (type Jordan). 1 par studio.
@@ -23,7 +23,7 @@ export default function GrilleStudioManagers() {
             Base <b>CDI 2 800&euro;</b> (+ ~260&euro; avantages) + <b>variable trim</b> (3 KPI &times; 500&euro;) + <b>bonus annuel uncapped</b> sous 2 gates qualite.
           </div>
 
-          <p style={{ fontWeight: 600, color: 'var(--navy)', marginTop: '1.5rem', marginBottom: '0.75rem', fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '1px' }}>
+          <p style={{ fontFamily: 'var(--font-display)', fontWeight: 700, color: 'var(--navy)', marginTop: '1.5rem', marginBottom: '0.75rem', fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '1px' }}>
             Variable trimestriel &middot; jusqu&apos;a 1 500&euro;/trim (3 KPI binaires)
           </p>
           <div className="table-wrap">
@@ -39,17 +39,17 @@ export default function GrilleStudioManagers() {
                 <tr>
                   <td><strong>CA studio</strong></td>
                   <td>&ge; 150K&euro;/trim ET prix moyen &ge; 95% target</td>
-                  <td style={{ textAlign: 'right', fontWeight: 700, color: 'var(--green)' }}>+500&euro;</td>
+                  <td style={{ textAlign: 'right', fontWeight: 700, color: 'var(--neuro)' }}>+500&euro;</td>
                 </tr>
                 <tr>
                   <td><strong>Conversion Decouverte &rarr; pack</strong></td>
                   <td>&ge; 55% (volume min 30 DC/trim)</td>
-                  <td style={{ textAlign: 'right', fontWeight: 700, color: 'var(--green)' }}>+500&euro;</td>
+                  <td style={{ textAlign: 'right', fontWeight: 700, color: 'var(--neuro)' }}>+500&euro;</td>
                 </tr>
                 <tr>
                   <td><strong>Google reviews</strong></td>
                   <td>+20 reviews/trim (note moy &ge; 4,7)</td>
-                  <td style={{ textAlign: 'right', fontWeight: 700, color: 'var(--green)' }}>+500&euro;</td>
+                  <td style={{ textAlign: 'right', fontWeight: 700, color: 'var(--neuro)' }}>+500&euro;</td>
                 </tr>
               </tbody>
             </table>
@@ -69,7 +69,7 @@ export default function GrilleStudioManagers() {
         <div className="section-body">
           <div className="cards">
             <div className="card">
-              <div className="card-label">Floor &middot; An 1 demarrage</div>
+              <div className="card-label muted">Floor &middot; An 1 demarrage</div>
               <div className="card-detail">Target rate &middot; 1/4 prime trim</div>
               <div className="card-value">35,1K&euro;<small>/an</small></div>
               <div className="table-wrap" style={{ marginTop: '1rem' }}>
@@ -81,7 +81,7 @@ export default function GrilleStudioManagers() {
                   </tbody>
                 </table>
               </div>
-              <div className="card-detail" style={{ marginTop: '0.75rem', fontStyle: 'italic' }}>
+              <div className="card-detail" style={{ marginTop: '0.75rem', fontFamily: 'var(--font-accent)', fontStyle: 'italic' }}>
                 Cout employeur ~52K&euro; charge
               </div>
             </div>
@@ -92,18 +92,18 @@ export default function GrilleStudioManagers() {
               <div className="table-wrap" style={{ marginTop: '1rem' }}>
                 <table>
                   <tbody>
-                    <tr><td style={{ color: 'var(--text-on-dark)' }}>Base CDI &times; 12</td><td style={{ textAlign: 'right', fontWeight: 600, color: 'var(--white)' }}>33,6K&euro;</td></tr>
-                    <tr><td style={{ color: 'var(--text-on-dark)' }}>3 primes &times; 4 trim</td><td style={{ textAlign: 'right', fontWeight: 600, color: 'var(--white)' }}>6K&euro;</td></tr>
-                    <tr><td style={{ color: 'var(--text-on-dark)' }}>Bonus annuel</td><td style={{ textAlign: 'right', fontWeight: 600, color: 'var(--white)' }}>7K&euro;</td></tr>
+                    <tr><td style={{ color: 'var(--mist)' }}>Base CDI &times; 12</td><td style={{ textAlign: 'right', fontWeight: 600, color: 'var(--white)' }}>33,6K&euro;</td></tr>
+                    <tr><td style={{ color: 'var(--mist)' }}>3 primes &times; 4 trim</td><td style={{ textAlign: 'right', fontWeight: 600, color: 'var(--white)' }}>6K&euro;</td></tr>
+                    <tr><td style={{ color: 'var(--mist)' }}>Bonus annuel</td><td style={{ textAlign: 'right', fontWeight: 600, color: 'var(--white)' }}>7K&euro;</td></tr>
                   </tbody>
                 </table>
               </div>
-              <div className="card-detail" style={{ marginTop: '0.75rem', fontStyle: 'italic' }}>
+              <div className="card-detail" style={{ marginTop: '0.75rem', fontFamily: 'var(--font-accent)', fontStyle: 'italic' }}>
                 Cout employeur ~67K&euro; charge
               </div>
             </div>
             <div className="card card-highlight">
-              <div className="card-label gold">Top &middot; An 3 outlier</div>
+              <div className="card-label">Top &middot; An 3 outlier</div>
               <div className="card-detail">3/3 primes + bonus 16K (1M&euro; CA)</div>
               <div className="card-value">55,6K&euro;<small>/an</small></div>
               <div className="table-wrap" style={{ marginTop: '1rem' }}>
@@ -115,7 +115,7 @@ export default function GrilleStudioManagers() {
                   </tbody>
                 </table>
               </div>
-              <div className="card-detail" style={{ marginTop: '0.75rem', fontStyle: 'italic' }}>
+              <div className="card-detail" style={{ marginTop: '0.75rem', fontFamily: 'var(--font-accent)', fontStyle: 'italic' }}>
                 Cout employeur ~78K&euro; charge
               </div>
             </div>
@@ -139,20 +139,20 @@ export default function GrilleStudioManagers() {
         <div className="section-body">
           <div className="cards">
             <div className="card">
-              <div className="card-label">An 1-2</div>
-              <div style={{ fontSize: '1.1rem', fontWeight: 700, color: 'var(--navy)' }}>Studio Manager</div>
+              <div className="card-label muted">An 1-2</div>
+              <div style={{ fontFamily: 'var(--font-display)', fontSize: '1.1rem', fontWeight: 700, color: 'var(--navy)' }}>Studio Manager</div>
               <div className="card-value">2 800&euro;<small>/mois</small></div>
               <div className="card-detail">Maitrise son studio : hospitality + ops + equipe + ventes.</div>
             </div>
             <div className="card card-dark">
               <div className="card-label">An 2-3 &middot; +18%</div>
-              <div style={{ fontSize: '1.1rem', fontWeight: 700, color: 'var(--white)' }}>Lead Manager</div>
+              <div style={{ fontFamily: 'var(--font-display)', fontSize: '1.1rem', fontWeight: 700, color: 'var(--white)' }}>Lead Manager</div>
               <div className="card-value">3 300&euro;<small>/mois</small></div>
               <div className="card-detail">Mentor des nouveaux SM + recrutement zone + lancements.</div>
             </div>
             <div className="card card-highlight">
-              <div className="card-label gold">An 3+ &middot; +43%</div>
-              <div style={{ fontSize: '1.1rem', fontWeight: 700, color: 'var(--navy)' }}>Operations Manager</div>
+              <div className="card-label">An 3+ &middot; +43%</div>
+              <div style={{ fontFamily: 'var(--font-display)', fontSize: '1.1rem', fontWeight: 700, color: 'var(--navy)' }}>Operations Manager</div>
               <div className="card-value">4 000&euro;+<small>/mois</small></div>
               <div className="card-detail">Gere 3-5 studios. N+1 des SM. Bonus % delta CA zone.</div>
             </div>

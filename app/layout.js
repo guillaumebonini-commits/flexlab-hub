@@ -1,7 +1,7 @@
 import './globals.css';
 
 export const metadata = {
-  title: 'Flexlab Hub - Guillaume',
+  title: 'Flexlab Hub',
   description: 'Documents internes Flexlab',
 };
 
@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
         <nav className="nav">
           <div className="nav-inner">
             <a href="/" className="nav-logo">
-              Flexlab<span>hub Guillaume</span>
+              FL<span className="sl">E</span>XLAB<span>hub Guillaume</span>
             </a>
             <ul className="nav-links">
               <li><a href="/">Accueil</a></li>

@@ -3,7 +3,7 @@ export default function GrilleFlexologues() {
     <div className="page">
       <div className="chapter-label">Chapitre 05 &middot; Equipe &amp; Paie</div>
       <h1 className="chapter-title">
-        Grille <em>flexologues</em>
+        GRIL<span className="sl">L</span>E <em>flexologues</em>
       </h1>
       <p className="chapter-subtitle">
         Tarif indexe au volume cumule de stretchs. Grilles publiques, meritocratiques.
@@ -22,8 +22,8 @@ export default function GrilleFlexologues() {
         <div className="section-body">
           <div className="cards">
             <div className="card">
-              <div className="card-label">Palier 1 &middot; Demarrage</div>
-              <div style={{ fontSize: '1rem', fontWeight: 700, marginBottom: '0.25rem' }}>Fondation</div>
+              <div className="card-label muted">Palier 1 &middot; Demarrage</div>
+              <div style={{ fontFamily: 'var(--font-display)', fontSize: '1rem', fontWeight: 700, marginBottom: '0.25rem' }}>Fondation</div>
               <div className="card-value">20&euro;<small>/50&apos;</small></div>
               <div className="card-sub">24&euro;/h propre</div>
               <div className="card-detail">
@@ -32,8 +32,8 @@ export default function GrilleFlexologues() {
               </div>
             </div>
             <div className="card">
-              <div className="card-label" style={{ color: 'var(--gold)' }}>Palier 2 &middot; +10%</div>
-              <div style={{ fontSize: '1rem', fontWeight: 700, marginBottom: '0.25rem' }}>Confirme</div>
+              <div className="card-label">Palier 2 &middot; +10%</div>
+              <div style={{ fontFamily: 'var(--font-display)', fontSize: '1rem', fontWeight: 700, marginBottom: '0.25rem' }}>Confirme</div>
               <div className="card-value">22&euro;<small>/50&apos;</small></div>
               <div className="card-sub">26,4&euro;/h propre</div>
               <div className="card-detail">
@@ -42,14 +42,14 @@ export default function GrilleFlexologues() {
               </div>
             </div>
             <div className="card card-highlight">
-              <div className="card-label gold">Palier 3 &middot; +20%</div>
-              <div style={{ fontSize: '1rem', fontWeight: 700, marginBottom: '0.25rem' }}>Referent</div>
+              <div className="card-label">Palier 3 &middot; +20%</div>
+              <div style={{ fontFamily: 'var(--font-display)', fontSize: '1rem', fontWeight: 700, marginBottom: '0.25rem' }}>Referent</div>
               <div className="card-value">24&euro;<small>/50&apos;</small></div>
               <div className="card-sub">28,8&euro;/h propre</div>
               <div className="card-detail">
                 1 000+ stretchs cumules<br/>
                 25&apos; 12&euro; &middot; 50&apos; 24&euro; &middot; 80&apos; 38&euro;<br/>
-                <em>Reserve a ~5-10% de l&apos;effectif</em>
+                <em style={{ fontFamily: 'var(--font-accent)', fontStyle: 'italic' }}>Reserve a ~5-10% de l&apos;effectif</em>
               </div>
             </div>
           </div>
@@ -70,10 +70,10 @@ export default function GrilleFlexologues() {
           </div>
         </div>
         <div className="section-body">
-          <p style={{ fontWeight: 600, color: 'var(--navy)', marginBottom: '0.5rem', fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '1px' }}>
+          <p style={{ fontFamily: 'var(--font-display)', fontWeight: 700, color: 'var(--navy)', marginBottom: '0.5rem', fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '1px' }}>
             Commission unique 5% sur tout
           </p>
-          <p style={{ fontSize: '0.85rem', color: 'var(--text-light)', marginBottom: '1rem' }}>
+          <p style={{ fontSize: '0.85rem', color: 'var(--muted)', marginBottom: '1rem' }}>
             Simplification validee : 5% sur premier pack client, 5% sur add-on standalone, 10% bonus combo Fresha.
           </p>
           <div className="pills">
@@ -82,7 +82,7 @@ export default function GrilleFlexologues() {
             <span className="pill">Commission add-on standalone post-seance &rarr; <strong className="blue">5%</strong> &middot; ex. presso 25&euro; &rarr; +1,25&euro;</span>
           </div>
 
-          <p style={{ fontWeight: 600, color: 'var(--navy)', marginTop: '1.5rem', marginBottom: '0.5rem', fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '1px' }}>
+          <p style={{ fontFamily: 'var(--font-display)', fontWeight: 700, color: 'var(--navy)', marginTop: '1.5rem', marginBottom: '0.5rem', fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '1px' }}>
             Bonus jours travailles (un seul des trois)
           </p>
           <div className="pills">
@@ -91,7 +91,7 @@ export default function GrilleFlexologues() {
             <span className="pill">20+ jours <strong>+150&euro;</strong> &middot; presence max (Thomas/Dylan/Valentin)</span>
           </div>
 
-          <p style={{ fontWeight: 600, color: 'var(--navy)', marginTop: '1.5rem', marginBottom: '0.5rem', fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '1px' }}>
+          <p style={{ fontFamily: 'var(--font-display)', fontWeight: 700, color: 'var(--navy)', marginTop: '1.5rem', marginBottom: '0.5rem', fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '1px' }}>
             Primes mensuelles cumulables
           </p>
           <div className="pills">
@@ -122,7 +122,7 @@ export default function GrilleFlexologues() {
         <div className="section-body">
           <div className="cards">
             <div className="card">
-              <div className="card-label">Junior &middot; 2 j/sem &middot; Fondation</div>
+              <div className="card-label muted">Junior &middot; 2 j/sem &middot; Fondation</div>
               <div className="card-detail">25 seances/mois</div>
               <div className="card-value">593&euro;<small>/mois</small></div>
               <div className="table-wrap" style={{ marginTop: '1rem' }}>
@@ -138,23 +138,23 @@ export default function GrilleFlexologues() {
               </div>
             </div>
             <div className="card card-dark">
-              <div className="card-label">Confirme &middot; 4 j/sem &middot; Fondation</div>
+              <div className="card-label">Confirme &middot; 4 j/sem</div>
               <div className="card-detail">60 seances/mois</div>
               <div className="card-value">1 549&euro;<small>/mois</small></div>
               <div className="table-wrap" style={{ marginTop: '1rem' }}>
                 <table>
                   <tbody>
-                    <tr><td style={{ color: 'var(--text-on-dark)' }}>60 seances &times; 22&euro;</td><td style={{ textAlign: 'right', fontWeight: 600, color: 'var(--white)' }}>1 320&euro;</td></tr>
-                    <tr><td style={{ color: 'var(--text-on-dark)' }}>12 combos</td><td style={{ textAlign: 'right', fontWeight: 600, color: 'var(--white)' }}>18&euro;</td></tr>
-                    <tr><td style={{ color: 'var(--text-on-dark)' }}>3 packs &times; 22&euro;</td><td style={{ textAlign: 'right', fontWeight: 600, color: 'var(--white)' }}>66&euro;</td></tr>
-                    <tr><td style={{ color: 'var(--text-on-dark)' }}>Bonus 14 jours</td><td style={{ textAlign: 'right', fontWeight: 600, color: 'var(--white)' }}>80&euro;</td></tr>
-                    <tr><td style={{ color: 'var(--text-on-dark)' }}>Prime 50 stretchs</td><td style={{ textAlign: 'right', fontWeight: 600, color: 'var(--white)' }}>60&euro;</td></tr>
+                    <tr><td style={{ color: 'var(--mist)' }}>60 seances &times; 22&euro;</td><td style={{ textAlign: 'right', fontWeight: 600, color: 'var(--white)' }}>1 320&euro;</td></tr>
+                    <tr><td style={{ color: 'var(--mist)' }}>12 combos</td><td style={{ textAlign: 'right', fontWeight: 600, color: 'var(--white)' }}>18&euro;</td></tr>
+                    <tr><td style={{ color: 'var(--mist)' }}>3 packs &times; 22&euro;</td><td style={{ textAlign: 'right', fontWeight: 600, color: 'var(--white)' }}>66&euro;</td></tr>
+                    <tr><td style={{ color: 'var(--mist)' }}>Bonus 14 jours</td><td style={{ textAlign: 'right', fontWeight: 600, color: 'var(--white)' }}>80&euro;</td></tr>
+                    <tr><td style={{ color: 'var(--mist)' }}>Prime 50 stretchs</td><td style={{ textAlign: 'right', fontWeight: 600, color: 'var(--white)' }}>60&euro;</td></tr>
                   </tbody>
                 </table>
               </div>
             </div>
             <div className="card card-highlight">
-              <div className="card-label gold">Top perf &middot; 5 j/sem &middot; Referent</div>
+              <div className="card-label">Top perf &middot; 5 j/sem &middot; Referent</div>
               <div className="card-detail">95 seances/mois</div>
               <div className="card-value">2 521&euro;<small>/mois</small></div>
               <div className="table-wrap" style={{ marginTop: '1rem' }}>

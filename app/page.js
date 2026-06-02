@@ -27,7 +27,7 @@ export default function Home() {
     <div className="page">
       <div className="chapter-label">Hub Guillaume</div>
       <h1 className="chapter-title">
-        Documents internes <em>Flexlab</em>
+        D<span className="sl">O</span>CUMENTS INTERNES <em>Flexlab</em>
       </h1>
       <p className="chapter-subtitle">
         Centralisation des grilles, analyses et documents de travail.
@@ -43,7 +43,7 @@ export default function Home() {
           >
             <div className="card">
               <div className="card-label">{p.label}</div>
-              <div style={{ fontSize: '1.25rem', fontWeight: 700, color: 'var(--navy)', marginBottom: '0.35rem' }}>
+              <div style={{ fontFamily: 'var(--font-display)', fontSize: '1.2rem', fontWeight: 700, color: 'var(--navy)', marginBottom: '0.35rem' }}>
                 {p.title}
               </div>
               <div className="card-detail">{p.desc}</div>
