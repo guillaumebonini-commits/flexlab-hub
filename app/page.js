@@ -21,6 +21,20 @@ export default function Home() {
       desc: 'Individuel sans humain, avec humain, collectif. Arbitrages 02/06.',
       status: 'Live',
     },
+    {
+      href: '/staffing-3-studios',
+      label: 'Operations',
+      title: 'Staffing 3 Studios',
+      desc: 'Arbitrage & planification. Modeles organisationnels Monceau + Condorcet.',
+      status: 'Live',
+    },
+    {
+      href: '/plan-operationnel',
+      label: 'Operations',
+      title: 'Plan Operationnel 3 Phases',
+      desc: 'Sept 2026 - Oct 2027. Organisation, P&L & seuils par studio.',
+      status: 'Live',
+    },
   ];
 
   return (

@@ -19,6 +19,8 @@ export default function RootLayout({ children }) {
               <li><a href="/grille-flexologues">Flexologues</a></li>
               <li><a href="/grille-studio-managers">Studio Managers</a></li>
               <li><a href="/services">Services</a></li>
+              <li><a href="/staffing-3-studios">Staffing</a></li>
+              <li><a href="/plan-operationnel">Plan Ops</a></li>
             </ul>
           </div>
         </nav>
